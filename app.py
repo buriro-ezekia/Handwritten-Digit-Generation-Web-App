@@ -78,5 +78,5 @@ if generate_button:
 
         # Display the image
         with cols[i]:
-            st.image(image_np, caption=f"Generated Image {i+1}", use_column_width=True)
+            st.image(image_np, caption=f"Generated Image {i+1}", use_container_width=True)
 
